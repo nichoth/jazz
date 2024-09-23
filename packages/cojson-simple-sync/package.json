@@ -18,7 +18,7 @@
     "dependencies": {
         "cojson": "^0.4.13",
         "cojson-storage-sqlite": "^0.4.13",
-        "ws": "^8.13.0"
+        "ws": "^8.17.1"
     },
     "scripts": {
         "build": "rm -rf ./dist && tsc --sourceMap --outDir dist && npm run add-shebang && chmod +x ./dist/index.js",
